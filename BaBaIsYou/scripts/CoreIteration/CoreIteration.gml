@@ -13,4 +13,9 @@ function CoreIteration(ops){
 	TransCheck();
 	StatuCheck();
 	WinCheck();
+	
+	StatuInit();
+	StatuCheck();
+	RuleTableInit();
+	RuleTableUpdate();
 }
